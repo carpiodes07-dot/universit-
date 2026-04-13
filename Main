@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+
+        Persona persona1 = new Persona();
+        Persona persona2 = new Persona();
+        System.out.println(persona1.nome);
+        System.out.println(persona2.nome);
+        persona1.saluta();
+        persona1.cammina();
+
+    }
+}
